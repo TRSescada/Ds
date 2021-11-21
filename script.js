@@ -58,7 +58,6 @@ document.querySelector('.check').addEventListener('click', function(){
     attemptsLeft = 10;
     var secretNumber = (Math.floor(Math.random() * 10000) + 10000).toString().substring(1)
   
-    // document.querySelector('.message').textContent = 'Start guessing...';
     displayMessage('Start guessing...');
     document.querySelector('.attemptsLeft').textContent = attemptsLeft;
     document.querySelector('.GivenNumber').value = '';
