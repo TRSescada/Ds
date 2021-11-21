@@ -30,8 +30,6 @@ document.querySelector('.check').addEventListener('click', function(){
           document.querySelector('.attemptsLeft').textContent = attemptsLeft;
             for (i=0;i<4;i++) {
                 for (j=0;j<4;j++) {
-                    console.log(GivenNumber[i]);
-                    console.log(secretNumber[j])
                     if (GivenNumber[i]==secretNumber[j]){
                         if (i==j){
                             correctDigit++;
